@@ -1,0 +1,98 @@
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    overflow: hidden; 
+    height: 100px;
+}
+
+div#logo {
+    background-color: rgb(162, 117, 87);
+    width: 20%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+div#menu {
+    background-color: rgb(162, 117, 87);
+    width: 80%;
+    height: 100px;
+    float: right;
+    text-align: right; 
+    line-height: 100px;
+}
+
+div#banner {
+    background-color: rgb(74, 45, 32);
+    color: white;
+    text-align: center;
+    padding: 30px; 
+}
+
+
+div#lewy {
+    background-color: rgb(162, 117, 87);
+    color: white;
+    width: 50%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    padding: 20px; 
+    line-height: normal; 
+}
+h2 {
+    text-align: left;
+    padding: 10px;
+}
+
+ol {
+    text-align: left; 
+    margin-left: 20px; 
+}
+
+
+div#prawy {
+    background-color: rgb(162, 117, 87);
+    color: white;
+    width: 50%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    box-sizing: border-box; 
+}
+
+footer {
+    background-color: rgb(74, 45, 32);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    letter-spacing: 10px;
+}
+
+a {
+    
+    padding: 20px;
+    margin: 10px;
+    font-size: 150%;
+    line-height: 100px;
+    border: 1px solid rgb(65, 98, 85);
+    color:  rgb(65, 98, 85);
+    text-decoration: none;
+}
+
+

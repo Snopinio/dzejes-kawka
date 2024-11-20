@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurtownia</title>
+    <link rel="stylesheet" href="styl4.css">
+</head>
+
+<body>
+    <div id="logo">
+        <img src="logo.png" alt="hurtownia">
+    </div>
+    <div id="menu">
+        <a href="index.html">Strona głowna</a>
+        <a href="zamowienia.html">Zamowienia</a>
+        <a href="blog.html">Blog o kawie</a>
+        <a href="http://gatunki-kawy.pl/" target="_blank" rel="noopener noreferrer">Odwiedź także</a>
+    </div>
+    <div id="banner">
+        <h1>Hurtownia Kawy</h1>
+    </div>
+
+        <div id="lewy">
+            <h2>Oferta</h2>
+            <ol>
+                <li>Kawa palona arabica</li>
+                <li>Kawa palona Robusta</li>
+                <li>Kawa bezkofeinowa</li>
+                <li>Kawa zielona</li>
+            </ol>
+        </div>
+        <div id="prawy">
+            <label for="kawa">Podaj numer kawy:</label><br>
+            <input type="number" name="kawa" id="kawa"><br>
+            <label for="waga">Podaj wagę w dekagramach:</label><br>
+            <input type="number" name="waga" id="waga"><br>
+            <button type="submit" onclick="policz()">Zamów</button>
+            <p id="wynik"></p>
+
+            <script src="skrypt.js"></script>
+        </div>
+
+    <footer>
+        <p>Strone przygotował: JANEK</p>
+    </footer>
+    <script src="skrypt.js"></script>
+</body>
+
+</html>
